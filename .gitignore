@@ -1,0 +1,6 @@
+.idea
+venv/
+soundfont/*
+output/*
+data/*
+old models
