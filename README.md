@@ -29,7 +29,7 @@ Under the default hyperparameters a model trains reasonably fast, but sounds pre
 4. After training the model (will probably take a while) it should show up on the interface for generation when you run `main.py`.
 
 ## Hyperparameters demo model
-The model was trained on the data from piano-mide.de as available [here](https://www.kaggle.com/datasets/soumikrakshit/classical-music-midi)
+The model was trained on the data from piano-midi.de as available [here](https://www.kaggle.com/datasets/soumikrakshit/classical-music-midi)
 | Parameter      | Value |
 |----------------|-------|
 | `quantization`   | 16    |
