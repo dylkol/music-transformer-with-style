@@ -25,7 +25,7 @@ Generally works better than generating from nothing but it should still be very 
 1. Do steps 1 and 2 from above.
 2. Put the desired training data in the `data` folder, in a subfolder for each composer. See the [data from piano-midi.de](https://www.kaggle.com/datasets/soumikrakshit/classical-music-midi).
 3. Run ``train.py <name>`` with `name` denoting the desired model output filename, which will be stored in `./model/name.pt`. Use the ``--help`` argument for explanation of all other optional arguments. 
-Under the default hyperparameters a model trains reasonably fast, but sounds pretty terribly. What I think also makes a difference is the dropout value, this is at 0.5 in DeepJ but it seems here keeping it low won't overfit much and give better results. See also the hyperparameters of the demo model below.
+Under the default hyperparameters a model trains reasonably fast, but sounds pretty terrible. What I think also makes a difference is the dropout value, this is at 0.5 in DeepJ but it seems here keeping it low won't overfit much and give better results. See also the hyperparameters of the demo model below.
 4. After training the model (will probably take a while) it should show up on the interface for generation when you run `main.py`.
 
 ## Hyperparameters demo model
